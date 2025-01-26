@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.95.0 -->
+<interface>
+  <!-- interface-name base_window.ui -->
+  <requires lib="gtk" version="4.0"/>
+  <template class="BaseWindow" parent="GtkApplicationWindow">
+    <child>
+      <object class="MainMenu" id="main_menu"/>
+    </child>
+  </template>
+</interface>

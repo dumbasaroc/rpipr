@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.95.0 -->
+<interface>
+  <!-- interface-name main_menu.ui -->
+  <requires lib="gtk" version="4.12"/>
+  <template class="MainMenu" parent="GtkBox">
+    <property name="homogeneous">True</property>
+    <child>
+      <object class="GtkCenterBox" id="centerbox">
+        <property name="center-widget">
+          <object class="GtkImage">
+            <property name="icon-name">applications-games</property>
+            <property name="pixel-size">70</property>
+          </object>
+        </property>
+        <property name="end-widget">
+          <object class="GtkImage">
+            <property name="icon-name">applications-internet</property>
+          </object>
+        </property>
+        <property name="start-widget">
+          <object class="GtkSpinner">
+            <property name="spinning">True</property>
+          </object>
+        </property>
+      </object>
+    </child>
+  </template>
+</interface>
